@@ -19,10 +19,18 @@ func main() {
 	// fmt.Println(SortedList, SortedList_odd)
 
 	//QuickSort
+	// list := []int{7, 92, 87, 1, 4, 3, 2, 6}         //even number of elements
+	// list_odd := []int{7, 92, 87, 1, 4, 3, 2, 6, 22} //odd number of elements
+	// fmt.Println(list, list_odd)
+	// SortedList := QuickSort(list)
+	// SortedList_odd := QuickSort(list_odd)
+	// fmt.Println(SortedList, SortedList_odd)
+
+	//RandomizedQuickSort
 	list := []int{7, 92, 87, 1, 4, 3, 2, 6}         //even number of elements
 	list_odd := []int{7, 92, 87, 1, 4, 3, 2, 6, 22} //odd number of elements
 	fmt.Println(list, list_odd)
-	SortedList := QuickSort(list)
-	SortedList_odd := QuickSort(list_odd)
+	SortedList := RandomizedQuickSort(list)
+	SortedList_odd := RandomizedQuickSort(list_odd)
 	fmt.Println(SortedList, SortedList_odd)
 }
